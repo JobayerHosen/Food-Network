@@ -21,6 +21,9 @@ section {
 img {
     width: 100%;
 }
+a {
+    text-decoration: none;
+}
 .container {
     width: 95%;
     max-width: 1200px;
