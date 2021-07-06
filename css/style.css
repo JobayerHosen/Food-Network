@@ -111,6 +111,7 @@ nav li a {
 .texts .header-title {
     font-size: 45px;
     color: #38383a;
+    letter-spacing: 2px;
 }
 .header-title span {
     color: #591fce;
@@ -124,7 +125,7 @@ nav li a {
     background-repeat: no-repeat;
 }
 .about .imgBx img {
-    width: 65%;
+    width: 80%;
 }
 .about .btn {
     margin-top: 40px;
@@ -141,18 +142,24 @@ nav li a {
 }
 .recipies .flex {
     padding: 0;
-    margin: 40px 0;
+    margin: 20px;
 }
 .card {
-    width: 33%;
-    flex-basis: 26%;
-    border: 16px solid #fff;
+    width: 25%;
+    /* flex-basis: 25%; */
+    border: 14px solid #fff;
     border-radius: 24px;
     box-shadow: 0 0 15px #0f0f0f59;
     background-color: #fff;
 }
+.card img {
+    border-radius: 12px;
+}
+.card a {
+    text-decoration: none;
+}
 .card .card-title {
-    font-size: 24px;
+    font-size: 22px;
     color: #38383a;
 }
 
